@@ -1,0 +1,17 @@
+{
+  "name": "covid19-flow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Shiga-pref-org/covid19-flow.git",
+  "author": "shiga-pref",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "gulp-rename": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-ejs": "^5.1.0"
+  },
+  "scripts": {
+    "build": "gulp"
+  }
+}
