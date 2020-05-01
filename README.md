@@ -1,5 +1,7 @@
 # COVID19-flow
 
+preview: https://shiga-pref.github.io/covid19-flow/
+
 ## develop
 
 ```shell
