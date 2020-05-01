@@ -675,7 +675,7 @@
 	}
 }
 
-subdirectory-arrow-right:before {
+.subdirectory-arrow-right:before {
   font-family: 'Font Awesome 5 Free';
   color: white;
 	content: "\f105";
