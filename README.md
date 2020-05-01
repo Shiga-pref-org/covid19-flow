@@ -4,6 +4,6 @@
 
 ```shell
 $ npm install
-$ npm run build
-$ npm start
+$ npm run build # テンプレートから HTML を生成
+$ npm start     # 生成した HTML をブラウザで表示
 ```
