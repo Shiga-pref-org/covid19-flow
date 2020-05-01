@@ -12,6 +12,7 @@
     "gulp-ejs": "^5.1.0"
   },
   "scripts": {
-    "build": "gulp"
+    "build": "gulp",
+    "start": "http-server docs -o -c-1"
   }
 }
