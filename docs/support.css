@@ -113,8 +113,8 @@
 }
 
 .list_01>li>a:before {
-	font-family: 'Material Icons';
-	content: "\e313";
+	font-family: 'Font Awesome 5 Free';
+	content: "\f107";
 	position: absolute;
 	color: #0288D1;
 	font-size: 20px;
@@ -300,8 +300,9 @@
 
 .editor h5:before {
 	position: absolute;
-	font-family: 'Material Icons';
-	content: "\e837";
+	font-family: 'Font Awesome 5 Free';
+  content: "";
+  font-weight: bold;
 	color: #006CA8;
 	left: 0;
 	top: -3px;
@@ -329,13 +330,13 @@
 }
 
 .editor .attention:before {
-	font-family: 'Material Icons';
+	font-family: 'Font Awesome 5 Free';
 	position: absolute;
-	content: "\e031";
+	content: "\f071";
 	top: 1px;
 	left: 0;
-	font-size: 23px;
-	color: #E94033;
+  color: #E94033;
+	font-weight: bold;
 }
 
 .editor .txt_c {
@@ -358,8 +359,8 @@
 
 .editor ul li:before {
 	position: absolute;
-	font-family: 'Material Icons';
-	content: "\e837";
+	/* font-family: 'Font Awesome 5 Free'; */
+	content: "◉";
 	color: #006CA8;
 	left: 0;
 	top: -2px;
@@ -672,4 +673,13 @@
 		padding-top: 75px;
 		margin-top: -75px;
 	}
+}
+
+subdirectory-arrow-right:before {
+  font-family: 'Font Awesome 5 Free';
+  color: white;
+	content: "\f105";
+	top: 1px;
+	left: 0;
+	font-size: 23px;
 }
