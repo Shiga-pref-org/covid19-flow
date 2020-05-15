@@ -63,3 +63,4 @@ typings/
 .next
 
 /docs/*.html
+.DS_Store
