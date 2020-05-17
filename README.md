@@ -1,6 +1,6 @@
 # COVID19-flow
 
-preview: https://shiga-pref.github.io/covid19-flow/
+preview: https://shiga-pref-org.github.io/covid19-flow/support01_01.html
 
 ## develop
 
