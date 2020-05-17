@@ -12,7 +12,7 @@
     "http-server": "^0.12.3"
   },
   "scripts": {
-    "build": "gulp",
+    "build": "gulp && cp ./docs/support01_01.html ./docs/index.html",
     "start": "http-server docs -o -c-1"
   }
 }
