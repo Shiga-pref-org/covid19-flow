@@ -1,46 +1,22 @@
 # COVID19-flow
 
-preview: https://shiga-pref-org.github.io/covid19-flow/support01_01.html
+このリポジトリは[滋賀県新型コロナウィルス感染症対策サイト](https://stopcovid19.pref.shiga.jp/)（本サイト）の中の[新型コロナウイルス感染症に関する支援制度](https://stopcovid19.pref.shiga.jp/support/01_01/)のページを生成するためのものです。
 
 ## develop
 
+開発には Node.js が必要です。
+
 ```shell
+$ git clone git@github.com:kamataryo/covid19-flow.git
+$ cd covid19-flow
 $ npm install
 $ npm run build # テンプレートからプレビュー用の HTML を生成
 $ npm start     # 生成したプレビュー用の HTML をブラウザで表示
 ```
 
-## Contribution
+## Contributions
 
-1. リポジトリをフォーク
+`/templates/contents` を修正することで文言修正などを行うことができます。
 
-    ![01](./images/01.png)
-
-2. 修正をコミットしてプッシュ
-
-    ```shell
-    # シェルから
-    $ git add .
-    $ git commit -m"Some fix"
-    $ git push origin master
-    ```
-
-    Gitpod を使う場合は以下のような URL を開くと開発環境を起動できます。
-
-    `https://gitpod.io/#https://github.com/<GitHub のユーザー名>/covid19-flow`
-
-3. GitHub Pages を有効にしてプレビュー。
-
-    ![07](./images/07.png)
-
-    以下のような URL でプレビューができるようになります。
-
-    `https://<GitHub のユーザー名>.github.io/covid19-flow/support01_01.html`
-
-4. プルリクエストを作成
-
-    フォークしたあなたのアカウントから、滋賀県（Shiga-pref-org）アカウントへプルリクエストを作成します。
-
-    ![05](./images/05.png)
-
-    ![10](./images/10.png)
+次の Wiki には、 Gitpod というクラウド IDE を使ってクラウド環境で修正を行う方法についてのメモがあります。
+https://github.com/Shiga-pref-org/covid19-flow/wiki
